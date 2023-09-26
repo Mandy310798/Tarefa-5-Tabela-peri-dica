@@ -1,0 +1,135 @@
+h2 {
+    font-family:'Segoe UI';
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+h3 {
+    padding: 0;
+    margin: 1px;
+}
+
+h4 {
+    padding: 0;
+    padding-top: 5px;
+    margin: 1px;
+
+    word-break: break-all;
+}
+
+h5 {
+    text-align: end;
+
+    padding: 0;
+    padding-right: 5px;
+    margin: 0px;
+}
+
+table{
+    padding: 3px;
+
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    border-spacing: 1px;
+    border-collapse: separate;
+    width: 100%;   
+
+    overflow-x: auto;
+    table-layout: fixed;
+}
+
+table, th {
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+td {
+    margin: 0;
+
+    height: 80px;
+    padding: 0px;
+}
+
+.nao_metais_diatomicos {
+    background-color: orange;
+}
+
+.gases_nobres {
+    background-color: rgb(255, 130, 199);
+}
+
+.metais_alcalinos {
+    background-color: red;
+}
+
+.metais_alcalinoterrosos {
+    background-color: sandybrown;
+}
+
+.semimetais {
+    background-color: yellow;
+}
+
+.nao_metais_poliatomicos {
+    background-color: darkgreen;
+}
+
+.metais_pos_transicao {
+    background-color: plum;
+}
+
+.metais_transicao {
+    background-color: lightgreen;
+}
+
+.prop_desconhecida {
+    background-color: lightgrey;
+}
+
+.lantanideos {
+    background-color: lightskyblue;
+}
+
+.actinideos {
+    background-color: blue;
+}
+
+@media (max-width: 1600px) {
+    h3 {
+        font-size: 14px;
+        word-break: break-all;
+    }
+    
+    h4 {
+       font-size: 11px;
+       word-break: break-all;
+     }
+
+    h5 {
+        font-size: 10px;
+        word-break: break-all;
+    }
+
+  }
+
+  @media (max-width: 600px) {
+    h3 {
+        font-size: 10px;
+        word-break: break-all;
+    }
+    
+    h4 {
+       font-size: 8px;
+       word-break: break-all;
+       transform: rotate(-90deg);
+     }
+
+    h5 {
+        font-size: 6px;
+        word-break: break-all;
+    }
+
+  }
