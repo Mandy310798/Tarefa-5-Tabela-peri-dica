@@ -6,7 +6,7 @@
 
 ## Imagem do projeto
 
-![Tabela Periódica] (C:\Users\amand\OneDrive\Documentos\Descodificadas\Trilha 02\Tarefa 5-Tabela periódica\Tabela Periódica.jpeg)
+![Tabela Periódica](https://github.com/Mandy310798/Tarefa-5-Tabela-peri-dica/blob/master/Tabela%20Peri%C3%B3dica.jpeg)
 
 &nbsp;
 
